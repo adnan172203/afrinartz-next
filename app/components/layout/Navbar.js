@@ -26,7 +26,7 @@ const Navbar = () => {
           <div>
             <img src='./images/logo.png' alt='' />
           </div>
-          {/* <div className='px-10 lg:hidden'>
+          <div className='px-10 lg:hidden'>
             <div className='border border-white/20 rounded-[60px] lg:bottom-0 lg:z-20'>
               <ul className='font-inter  text-xs flex  gap-x-[90px] xxl:gap-x-[60px] xl:px-24 text-white/70 py-7 px-44 uppercase'>
                 <li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <img src='./images/nav-icons/linkedin.svg' alt='' />
               </li>
             </ul>
-          </div> */}
+          </div>
           <div
             className='hidden cursor-pointer lg:block'
             onClick={handleDrawer}
